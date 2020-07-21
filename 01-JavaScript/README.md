@@ -18,38 +18,38 @@ This JS Course will take roughly **30 Hours** to complete and will give you a fu
 
 > ✅ = Covered Topic
 
-- Introduction
+- ##### Introduction
   - Data Types ✅
   - Built In Methods ✅
   - Variables ✅
-- Conditionals
+- ##### Conditionals
   - if, else, if else and switch statements ✅
   - Ternary Syntax ✅
-- Functions
+- ##### Functions
   - JS Function Syntax ✅
   - Passing Data to Functions through paramaters ✅
   - `return` keyword ✅
   - Arrow functions `=> {}` ✅
   - Concise body syntax (Reducing how much you actually have to write) ✅
-- Scope
+- ##### Scope
   - Global Scope ✅
     - Global Variables ✅
   - Block Scope ✅
-- Arrays
+- ##### Arrays
   - What Arrays are and how to use them ✅
   - Nested Arrays ✅
   - Adding/Removing elements from an Array `.pop` `.push` ✅
-- Loops
+- ##### Loops
   - `for` loops ✅
   - `while` loops ✅
   - Higher Order Functions ✅
-- Iterators
+- ##### Iterators
   - `.reduce` ✅
   - `.forEach`✅
   - `.filter` ✅
   - `.map` ✅
   - `.some` ✅
-- Objects
+- ##### Objects
   - An Introduction to OOP ✅
   - JS ES6 Object Syntax ✅
   - Advanced Objects ✅
@@ -59,40 +59,47 @@ This JS Course will take roughly **30 Hours** to complete and will give you a fu
       - When to use setters ✅
       - `typeof` and how to use it to validate input and avoid errors ✅
     - Read Only Properties ✅
-- Classes
+- ##### Classes
   - What Classes are and how to use them ✅
     - Inheritance
       - Using the `extends` keyword specifiy what it's superclass is ✅
         - Using the `super` keyword to inherit properties of a superclass ✅
-  - Creating Classes
+  - ##### Creating Classes
     - Using `new` to create a new instance of the class ✅
     - Creating methods ✅
     - Creating a static method ✅
-- Browser Compatibility + Transplantability
+- ##### Browser Compatibility + Transplantability
   - JS ES6 and ES5 Compatibility
     - [caniuse.com](https://caniuse.com) ✅
   - `npm` ✅
     - `babel-cli` and `babel-preset-env` ✅
   - Building our code ✅
-- Modules
+- ##### Modules
   - How to export Modules ✅
   - How to import Modules
     - Import modules using `.require` ✅
     - Import modules in ES6 using `import` ✅
-- Promises
-  - asynchronous JS with Promises syntax
-- Async-Await
+- ##### Promises
+  - asynchronous JS with Promises syntax ✅
+    - Consuming Promises ✅
+      - Using `.then` ✅
+      - Using `.catch` ✅
+- ##### Async-Await
   - How to use asynchronous programming in JS
-  - Deeper dive on Promises
-- Requests
+    - `async` Functions ✅
+  - Deeper dive on Promises ✅
+    - `Promise.all()` coupled with `await`
+- ##### Requests
   - API calls
-    - HTTP GET
-    - HTTP POST
+    - HTTP GET ✅
+    - HTTP POST ✅
   - JSON
-    - JS Object Notation
-    - `.json` resolving returned promises
-  - XMLHttpRequest
-  - Query strings in URL's
+    - JS Object Notation ✅
+    - `.json` resolving returned promises ✅
+  - XMLHttpRequest ✅
+  - Query strings in URL's ✅
+  - `fetch()` and it's Syntax ✅
+  - Combining `fetch` and `async` functions, including error handling ✅
 
 ### Examples Of Work
 
@@ -256,11 +263,210 @@ console.log(newOject.model) // Inherits all the Properties of the factory object
 ```
 As you can tell, it isn't **that much** different, however the extra little features such as that in ES6 make it especially convenient over bigger functions and objects.
 
+##### Asynchronous Functions
+`Asynchronous Functions` are really handy to learn about and can be used in multiple situations and are incredibly handy to understand.
+
+What are they?
+
+This is the first time I have come across `Asynchronous Functions` and I wanted to make sure I understood them.
+
+Essentially, `Asynchronous Functions` can allow us to **wait** until a promise is resolved. This can be very handy in scenarios where a `Promise` needs to be resolved to move on to the next task.
+
+> Promises can either be in three states; Pending, Resolved or Rejected
+
+Here is an example `Asynchronous Function` I wrote during the course;
+
+```js
+const {shopForBeans, soakTheBeans, cookTheBeans} = require('./library.js');
+
+async function makeBeans() {
+  var type = await shopForBeans();
+  var isSoft = await soakTheBeans(type);
+  var dinner = await cookTheBeans(isSoft);
+  console.log(dinner);
+}
+
+makeBeans();
+
+// As You Can See Here, The Are So Simple To Set Up and Follow Standard Promise Syntax.
+```
+
+Another example of `Asynchronous Functions` using the `Promise` syntax is the following example;
+
+```js
+let {cookBeans, steamBroccoli, cookRice, bakeChicken} = require('./library.js')
+
+async function serveDinnerAgain() {
+  let foodArray = await Promise.all([steamBroccoli(), cookRice(), bakeChicken(), cookBeans()]);
+  console.log(`Dinner is served. We're having ${foodArray[0]}, ${foodArray[1]}, ${foodArray[2]}, and ${foodArray[3]}.`);
+};
+
+serveDinnerAgain();
+
+// Resolving All The Promises Concurrently
+```
+The advantages of the previous example is you can resolve the `Promises` concurrently. Meaning all at once, this allows quicker execution of your function.
+
+##### Requests and API's
+
+Requests and API's are something I have briefly learnt about when I was creating my tweak [Kithara](https://github.com/KodeyThomas/Kithara) which uses [LastFM's API](https://last.fm) which was a new but exciting experience. I also created a `library` for easy use to send a `HTTP POST` request to an API.
+
+Before starting this course, I already understood the two main `Request Types` which are `POST` and `GET`
+
+Compared To Objective-C the `POST` requests are relatively the same with a few differences, which I shall do my best to cover.
+
+Below is an example `HTTP POST` request written in JS
+
+```JS
+// Information to reach API
+const apiKey = 'VALID_API_SECRET';
+const url = 'https://api-to-call.url/method';
+
+// AJAX functions
+const sendPOSTrequest = () => {
+  const xhr = new XMLHttpRequest();
+  xhr.responseType = 'json';
+
+  xhr.onreadystatechange = () => {
+    if (xhr.readyState === XMLHttpRequest.DONE) {
+      renderResponse(xhr.response);
+    }
+  };
+  xhr.open('POST', url);
+
+  xhr.setRequestHeader('Content-type', 'application/json');
+  xhr.setRequestHeader('apikey', apiKey);
+
+  xhr.send(data);
+};
+
+// As You Can See It Isn't To Complex.
+```
+However Here is a `HTTP POST` request written in `Objective-C` this is copied from my [apiCall](https://github.com/KodeyThomas/apiCall) library found on my [GitHub](https://github.com/KodeyThomas)
+
+```objc
+- (NSMutableDictionary *)POST_JSON:(NSString*)urlString :(NSString*)parameterString { // POST Request in JSON
+  NSError *error;
+  NSURL *url = [NSURL URLWithString:urlString];
+  NSMutableURLRequest *request = [[NSMutableURLRequest alloc] init];
+  [request setHTTPMethod:@"POST"];
+  [request setURL:url];
+  [request addValue:@"application/json" forHTTPHeaderField:@"Content-Type"];
+  NSData *postData = [parameterString dataUsingEncoding:NSUTF8StringEncoding];
+  [request setHTTPBody:postData];
+  NSData *rawResponse = [NSURLConnection sendSynchronousRequest:request returningResponse:nil error:&error];
+  NSMutableDictionary *response = [NSJSONSerialization JSONObjectWithData: rawResponse options: NSJSONReadingMutableContainers error: &error];
+  return response;
+}
+```
+However using the library I wrote this can be simplified down to this;
+
+```objc
+NSString *POSTurl = @"http://api.url"
+NSString *params = @"yourAPIparamaters"
+NSMutableDictionary *API_Response = [[apiCall sharedInstance] POST_JSON:POSTurl :params];
+```
+As you can see my library significantly reduces the size of the code and makes it a lot easier to send `HTTP POST` requests.
+
+
+Below is an example of code I have written during the course, the following code is a simple `XMLHttpRequest` function which sends a `GET` request
+
+```js
+// Information to reach API
+const url = 'https://api-to-call.url/method?';
+const queryParams = 'rel_jjb=';
+const additionalParams = '&topics=';
+
+// AJAX function
+const getSuggestions = () => {
+  const wordQuery = inputField.value;
+  const topicQuery = topicField.value;
+  const endpoint = `${url}${queryParams}${wordQuery}${additionalParams}${topicQuery}`;
+
+  const xhr = new XMLHttpRequest();
+  xhr.responseType = 'json';
+
+  xhr.onreadystatechange = () => {
+    if (xhr.readyState === XMLHttpRequest.DONE) {
+      renderResponse(xhr.response);
+    }
+  }
+
+  xhr.open('GET', endpoint);
+  xhr.send();
+}
+```
+Additionally, I could also use a `fetch()` request to do the same thing as a `GET` request just in less code. That looks like this;
+
+```js
+// Information to reach API
+const url = 'https://api-to-call.url';
+const queryParams = '?sl=';
+
+// AJAX function
+const getSuggestions = () => {
+  const endpoint = `${url}${queryParams}`;
+  fetch(endpoint, {cache: 'no-cache'})
+  .then(response => {
+    if (response.ok) {
+      return response.json(response);
+    }
+    throw new Error('Request failed!');
+  }, networkError => {
+    console.log(networkError.message);
+  });
+
+```
+
+This method can also be applied to `POST` requests demonstrated here;
+
+```js
+fetch('https://api-to-call.com/endpoint', {
+  method: 'POST',
+  body: JSON.stringify({id: '200'})
+})
+.then(response => {
+  if (response.ok) {
+    return response.json();
+  } throw new Error('Request failed!');
+}, networkError => {
+  console.log(networkError.message);
+})
+.then(jsonResponse => {
+  return jsonResponse;
+});
+```
+
+You can also use `Asynchronous Functions` Requests and reap all the traditional benefits `Asynchronous Programming` gives you.
+
+> This is done with traditional `async` syntax.
+
+As demonstrated in the code below;
+
+```js
+const getData = async () => {
+  try {
+    const response = await fetch('https://api-to-call.com/endpoint', {
+      method: 'POST',
+      body: JSON.stringify({id: 200})
+    });
+    if (response.ok) {
+      const jsonResponse = await response.json();
+      return jsonResponse;
+    } throw new Error('Request failed!');
+  } catch(error) {
+    console.log(error);
+  }
+};
+```
+
 ### What I have learnt about JavaScript
 
 After learning the fundamentals of JS, I can certainly see why it is the most popular language for Professional Developers as it is relatively straightforward and you can use it in virtually any application, anything from a Webpage to a fully configured backend system.
 
 JS ES6 has very easy syntax to learn and coming from `Objective-C` it has been a breeze to learn (Well the foundations anyway!)
+
+![completed](../assets/JS.png)
 
 ### End Project
 
