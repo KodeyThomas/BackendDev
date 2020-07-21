@@ -1,5 +1,3 @@
-where-ever# JavaScript Basics
-
 Following the roadmap, the first language I need to learn is `JavaScript`
 
 ### What is JavaScript
@@ -54,7 +52,7 @@ This JS Course will take roughly **30 Hours** to complete and will give you a fu
 - Objects
   - An Introduction to OOP ✅
   - JS ES6 Object Syntax ✅
-  - Advanced Objects 
+  - Advanced Objects
 - Classes
   - What Classes are and how to use them
   - Creating Classes
