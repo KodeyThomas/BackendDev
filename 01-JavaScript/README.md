@@ -52,16 +52,33 @@ This JS Course will take roughly **30 Hours** to complete and will give you a fu
 - Objects
   - An Introduction to OOP ✅
   - JS ES6 Object Syntax ✅
-  - Advanced Objects
+  - Advanced Objects ✅
+    - Getters
+      - When to use getters ✅
+    - Setters
+      - When to use setters ✅
+      - `typeof` and how to use it to validate input and avoid errors ✅
+    - Read Only Properties ✅
 - Classes
-  - What Classes are and how to use them
+  - What Classes are and how to use them ✅
+    - Inheritance
+      - Using the `extends` keyword specifiy what it's superclass is ✅
+        - Using the `super` keyword to inherit properties of a superclass ✅
   - Creating Classes
-  - Importing Classes
-- Browser Compatibility
-  - JS ES6
-  - JS ES5
+    - Using `new` to create a new instance of the class ✅
+    - Creating methods ✅
+    - Creating a static method ✅
+- Browser Compatibility + Transplantability
+  - JS ES6 and ES5 Compatibility
+    - [caniuse.com](https://caniuse.com) ✅
+  - `npm` ✅
+    - `babel-cli` and `babel-preset-env` ✅
+  - Building our code ✅
 - Modules
-  - How to use JS Modules
+  - How to export Modules ✅
+  - How to import Modules
+    - Import modules using `.require` ✅
+    - Import modules in ES6 using `import` ✅
 - Promises
   - asynchronous JS with Promises syntax
 - Async-Await
@@ -207,6 +224,43 @@ PhoenixDRM.getUUID; // Valid Objective-C Code
 
 PhoenixDRM.getUUID; // Valid JS Code
 ```
+
+Object Syntax in ES6 is also really handy as there are a plethora of features to make shorthand notation incredibly fast and efficient to write.
+
+```js
+// Shorthand Notation in ES6, for a factory function
+function robotFactory(model, mobile){
+  return {
+    model,
+    mobile,
+    beep() {
+      console.log('Beep Boop');
+    }
+  }
+}
+newObject = robotFactory('T-800', true);
+console.log(newOject.model) // Inherits all the Properties of the factory object  
+
+// Full Notation in ES6
+function robotFactory(model, mobile){
+  return {
+    model: model,
+    mobile: mobile,
+    beep() {
+      console.log('Beep Boop');
+    }
+  }
+}
+newObject = robotFactory('T-800', true);
+console.log(newOject.model) // Inherits all the Properties of the factory object  
+```
+As you can tell, it isn't **that much** different, however the extra little features such as that in ES6 make it especially convenient over bigger functions and objects.
+
+### What I have learnt about JavaScript
+
+After learning the fundamentals of JS, I can certainly see why it is the most popular language for Professional Developers as it is relatively straightforward and you can use it in virtually any application, anything from a Webpage to a fully configured backend system.
+
+JS ES6 has very easy syntax to learn and coming from `Objective-C` it has been a breeze to learn (Well the foundations anyway!)
 
 ### End Project
 
