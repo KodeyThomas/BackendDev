@@ -45,6 +45,10 @@ At the time of writing it has been 58 Days since I started this Journey as that 
 
 ![cloudflare](assets/cloudflare.png)
 
+Additionally a project I am currently working on along side this project, requires me to understand `Next.JS` + `React.JS` as they are both powerful frameworks that are key in building successful web based applications.
+
+I need a good understanding in both frameworks to create a good end product, due to that fact I shall also be studying `Next.JS` + `React.JS`
+
 ### The Roadmap I Will be following
 
 So the roadmap I will be following can be found [HERE](https://roadmap.sh/backend) but I can already do a few things on there, so I shall be ticking off what I already can do to simplify the process.
