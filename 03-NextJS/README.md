@@ -1,4 +1,4 @@
-assignedcomponents# Next.JS Framework
+optimiseassignedcomponents# Next.JS Framework
 So far I have learnt `JavaScript` and the basics of `React.JS`
 
 The keen eyed among you will notice that with the exception of `Node.js` a `JavaScript` framework. All the skills I have learnt on this journey thus far are frontend skills.
@@ -87,6 +87,13 @@ localhost:3000/api/test.js?bruhMoment=yes
 ```
 
 This would store the variable bruh, with the value of 'yes'
+
+### What I Learnt about `Next.JS`
+`Next.JS` is a really powerful framework and incredibly useful in tons of situations.
+
+By building upon the existing `React.js` framework it allows developers to create a fully integrated application all in one language. This can be useful for one person teams as the developer only needs to learn one language. However this can be useful for big teams too, as if developers can understand the front and backend easier they can optimise there side of the application to be better suited to the other aspects of the application.
+
+Another benefit of `Next.js` is scaleability, it is designed for scaleability and that is incredibly useful in modern day applications.
 
 ### Summed Up
 
