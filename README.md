@@ -49,6 +49,9 @@ Additionally a project I am currently working on along side this project, requir
 
 I need a good understanding in both frameworks to create a good end product, due to that fact I shall also be studying `Next.JS` + `React.JS`
 
+Additionally I will be learning C# as it is a requirement from the Skills provider for my apprenticeship (I'm under 18 so in the UK it's the only way I can get a full time job programming)
+It will be increadibly useful if I ever come to develop desktop applications.
+
 ### The Roadmap I Will be following
 
 So the roadmap I will be following can be found [HERE](https://roadmap.sh/backend) but I can already do a few things on there, so I shall be ticking off what I already can do to simplify the process.
