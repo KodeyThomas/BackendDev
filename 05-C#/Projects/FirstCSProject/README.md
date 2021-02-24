@@ -6,4 +6,4 @@ The reason I did this is to start off learning about making code easier to read 
 The Project only took < 5 Minutes to complete.
 
 ![Code Snippet](https://raw.githubusercontent.com/KodeyThomas/BackendDev/master/assets/firstCSProject1.png)
-![Showing Multiple Files](https://raw.githubusercontent.com/KodeyThomas/BackendDev/tree/master/assets/firstCSProject2.png)
+![Showing Multiple Files](https://raw.githubusercontent.com/KodeyThomas/BackendDev/master/assets/firstCSProject2.png)
