@@ -5,6 +5,7 @@ This folder details the projects I have completed during Phase 1 of learning Go
 - [ASCII Art](#ascii-art)
 - [Comic Book](#comic-book)
 - [Bank Heist](#bank-heist)
+- [Interstellar Travel](#interstellar-travel)
 
 ### ASCII Art
 
@@ -27,3 +28,11 @@ This Project was a simulation of a Bank Heist, It used conditionals and random n
 The seeding worked by getting the current UNIX time and using that to seed for our random number so overtime we played the game it was *relatively* random
 
 Code can be found [HERE](https://github.com/KodeyThomas/BackendDev/tree/master/06-GoLang/Phase_1/Projects/bankHeist.go)
+
+### Interstellar Travel
+
+This was the final project for me to complete on Codecademy, it is a combination of all the skills in Go I have learnt up until this point.
+
+It uses multiple Conditional Statements, Functions (With Input Parameters and expected Return values)
+
+Code can be found [HERE](https://github.com/KodeyThomas/BackendDev/tree/master/06-GoLang/Phase_1/Projects/interstellarTravel.go)
