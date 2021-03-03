@@ -7,3 +7,6 @@ This is an Overview of the Codecademy course.
 - [FMT Package](https://github.com/KodeyThomas/BackendDev/tree/master/06-GoLang/Phase_1/FMT_Package.md)
 - [Conditionals](https://github.com/KodeyThomas/BackendDev/tree/master/06-GoLang/Phase_1/Conditionals.md)
 - [Functions](https://github.com/KodeyThomas/BackendDev/tree/master/06-GoLang/Phase_1/Functions.md)
+- [Addresses & Pointers](https://github.com/KodeyThomas/BackendDev/tree/master/06-GoLang/Phase_1/Addresses%26Pointers.md)
+
+![Go Completion](../../assets/go.png)

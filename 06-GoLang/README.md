@@ -21,7 +21,7 @@ Cloud computing offers amazing scalability and lets business' only pay for what 
 
 This is a technology I want to spend more time with to fully understand so I've broken down my learning into four phases.
 
-- [**Phase 1: Codecademy / First Steps**](https://github.com/KodeyThomas/BackendDev/tree/master/06-GoLang/Phase_1)
+- [**Phase 1: Codecademy / First Steps**](https://github.com/KodeyThomas/BackendDev/tree/master/06-GoLang/Phase_1) ✅ 
 - **Phase 2: Practical Project**
 - **Phase 3: Example Interview Questions**
 - **Phase 4: Extended Practical Application**
