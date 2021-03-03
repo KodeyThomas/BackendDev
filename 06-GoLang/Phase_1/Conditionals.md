@@ -93,3 +93,72 @@ if(storeLights == "on" && doorsOpen) {
 }
 ``` 
 
+### Switch Statements
+
+`switch` Statements are designed around the case that you need to use loads of `else if` Statements
+
+It makes the code look messy and uses loads of Computing power especially in games where you're constantly checking these statements, for example an NPC walking around
+
+`switch` Statements use an alternate syntax thats easier to read and write
+
+It does this through something called the *case system*
+
+In essence;
+
+```UTF-8
+if this case == true {
+    // do stuff
+}
+if this case == true {
+    // do stuff
+}
+if none of them are true {
+    // do stuff
+}
+```
+> Please note that is **NOT** Go code
+
+The last *case* there is something called the `default` case. It executes if none of the other cases are true
+
+So.. How do we write this in Go?
+
+```golang
+clothingChoice := "sweater"
+ 
+switch clothingChoice {
+case "shirt":
+  fmt.Println("We have shirts in S and M only.")
+case "polos":
+  fmt.Println("We have polos in M, L, and XL.")
+case "sweater":
+  fmt.Println("We have sweaters in S, M, L, and XL.")
+case "jackets":
+  fmt.Println("We have jackets in all sizes.")
+default:
+  fmt.Println("Sorry, we don't carry that")
+}
+``` 
+
+You'll notice each *case* is started by the keyword `case` and the *default* case by `default`
+
+
+### Scoped Short Declaration Statement
+
+We can also include Shorthand variable declaration before a conditional
+
+To tell the compiler where the declaration ends we use a semi-colon `;`
+
+```golang
+// if Statements
+x := 8
+y := 9
+if product := x * y; product > 60 {
+  fmt.Println(product, "  is greater than 60")
+}
+
+// switch Statements
+switch season := "summer" ; season {
+case "summer"
+  fmt.Println("Go out and enjoy the sun!")
+}
+``` 
