@@ -7,6 +7,8 @@ These are mainly from Codecademy's online course but there will be (probably at 
 ### Projects
 
 - [Kelvin Weather](#kelvin-weather)
+- [Dog Years](#dog-years)
+- [Eight Ball Prediction](#eight-ball-prediction)
 
 #### Kelvin Weather
 
@@ -19,3 +21,9 @@ Code can be found [HERE](https://github.com/KodeyThomas/BackendDev/tree/master/0
 Dog Years is another simple project and just helps reinforce your learning about variables and working with maths operators
 
 Code can be found [HERE](https://github.com/KodeyThomas/BackendDev/tree/master/01-JavaScript/Projects/dog_years.js)
+
+#### Eight Ball Prediction
+
+This is a more complicated Project involving conditionals; `if` statements, `switch` statements and again `Math.floor`
+
+Code can be found [HERE](https://github.com/KodeyThomas/BackendDev/tree/master/01-JavaScript/Projects/eight_ball_prediction.js)
