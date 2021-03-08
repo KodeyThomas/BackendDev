@@ -6,6 +6,8 @@ Here is some projects I made with Codecademy's PHP Course
 - [Mad Lib Functions](#mad-lib-functions)
 - [Bob's Budget](#bobs-budget)
 - [Calculator](#calculator)
+- [Magic 8 Ball](#magic-8-ball)
+- [Number Guesser](#number-guesser)
 
 ### World Traveller
 
@@ -30,3 +32,15 @@ Code can be found [HERE](https://github.com/KodeyThomas/BackendDev/tree/master/0
 In this project, we start to apply more practical PHP skills like including HTML forms and slowly integrating it into a more useable use case
 
 Code can be found [HERE](https://github.com/KodeyThomas/BackendDev/tree/master/07-PHP/Projects/Caclulator)
+
+### Magic 8 Ball
+
+This project is another example of using Conditionals, in this case a switch statement. It's pretty simple but still an applied example of what I've learnt
+
+Code can be found [HERE](https://github.com/KodeyThomas/BackendDev/tree/master/07-PHP/Projects/magic-8-ball.php)
+
+### Number Guesser
+
+In this Project I use input from the user to make my program more dynamic
+
+Code can be found [HERE](https://github.com/KodeyThomas/BackendDev/tree/master/07-PHP/Projects/number-guesser.php)
