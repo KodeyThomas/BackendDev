@@ -53,3 +53,15 @@ This project took a lot longer due to the shear size of it, that being said it p
 This project uses absolutely everything I've learnt in PHP up to this point and I've really enjoyed doing it!
 
 Code can be found [HERE](https://github.com/KodeyThomas/BackendDev/tree/master/07-PHP/Projects/text-based-adventure)
+
+### FizzBuzz
+
+FizzBuzz is a really common interview question and it's there to assess a candidates mind on how they program and solve problems.
+
+If the answer is devisable by 3 then print `Fizz`, If its devisable by 5 then print `Buzz` and then If its devisable by both 3 AND 5 print `FizzBuzz`
+
+Simple right?
+
+It's more complex then it sounds but isn't too hard if you work logically
+
+Code can be found [HERE](https://github.com/KodeyThomas/BackendDev/tree/master/07-PHP/Projects/fizzbuzz.php)
