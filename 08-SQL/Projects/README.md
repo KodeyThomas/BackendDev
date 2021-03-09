@@ -10,7 +10,7 @@ This file contains all SQL Projects that i've done on codecademy
 
 In this Project it's really simple and just gives me a basic understanding of different operations in SQL
 
-Code can be found [HERE](https://github.com/KodeyThomas/BackendDev/tree/master/08-SQL/Projects/firstProject.sql)
+Code can be found [HERE](https://github.com/KodeyThomas/BackendDev/tree/master/08-SQL/Projects/firstProject.sqlite)
 
 ### Query Project
 
@@ -26,10 +26,10 @@ Then I would do;
 SELECT * FROM nomnom ORDER BY review DESC LIMIT 10;
 ```
 
-Code can be found [HERE](https://github.com/KodeyThomas/BackendDev/tree/master/08-SQL/Projects/queryProject.sql)
+Code can be found [HERE](https://github.com/KodeyThomas/BackendDev/tree/master/08-SQL/Projects/queryProject.sqlite)
 
 ### Aggregate Functions 
 
 In this Project I demonstrate my knowledge of Aggregate Functions within SQL
 
-Code can be found [HERE](https://github.com/KodeyThomas/BackendDev/tree/master/08-SQL/Projects/aggregateFunctions.sql)
+Code can be found [HERE](https://github.com/KodeyThomas/BackendDev/tree/master/08-SQL/Projects/aggregateFunctions.sqlite)
