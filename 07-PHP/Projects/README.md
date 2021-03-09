@@ -9,6 +9,7 @@ Here is some projects I made with Codecademy's PHP Course
 - [Magic 8 Ball](#magic-8-ball)
 - [Number Guesser](#number-guesser)
 - [Text Based Adventure Game](#text-based-adventure-game)
+- [Café](#cafè)
 
 ### World Traveller
 
@@ -65,3 +66,11 @@ Simple right?
 It's more complex then it sounds but isn't too hard if you work logically
 
 Code can be found [HERE](https://github.com/KodeyThomas/BackendDev/tree/master/07-PHP/Projects/fizzbuzz.php)
+
+### Cafè
+
+This project starts to combine HTML with PHP to start making practical projects.
+
+This project uses `loops` to create a dynamic webpage loaded with items from our Cafè 
+
+Code can be found [HERE](https://github.com/KodeyThomas/BackendDev/tree/master/07-PHP/Projects/cafe.php)
