@@ -8,6 +8,7 @@ Here is some projects I made with Codecademy's PHP Course
 - [Calculator](#calculator)
 - [Magic 8 Ball](#magic-8-ball)
 - [Number Guesser](#number-guesser)
+- [Text Based Adventure Game](#text-based-adventure-game)
 
 ### World Traveller
 
@@ -44,3 +45,11 @@ Code can be found [HERE](https://github.com/KodeyThomas/BackendDev/tree/master/0
 In this Project I use input from the user to make my program more dynamic
 
 Code can be found [HERE](https://github.com/KodeyThomas/BackendDev/tree/master/07-PHP/Projects/number-guesser.php)
+
+### Text Based Adventure Game
+
+This project took a lot longer due to the shear size of it, that being said it probably took ~1hour so not too long at all
+
+This project uses absolutely everything I've learnt in PHP up to this point and I've really enjoyed doing it!
+
+Code can be found [HERE](https://github.com/KodeyThomas/BackendDev/tree/master/07-PHP/Projects/text-based-adventure)
