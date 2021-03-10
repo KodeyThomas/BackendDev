@@ -1,0 +1,21 @@
+SELECT * FROM trips;
+ 
+SELECT * FROM riders;
+ 
+SELECT * FROM cars;
+
+SELECT riders.first,
+   riders.last,
+   cars.model
+FROM riders, cars;
+
+SELECT *
+FROM trips
+JOIN cars
+  ON trips.car_id = cars.id;
+
+SELECT *
+FROM riders
+UNION
+SELECT *
+FROM riders2;

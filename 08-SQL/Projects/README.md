@@ -4,7 +4,9 @@ This file contains all SQL Projects that i've done on codecademy
 
 - [First Project](#first-project)
 - [Query Project](#query-project)
-- [Aggregate Fuinctions](#aggregate-functions)
+- [Aggregate Functions](#aggregate-functions)
+- [Hacker Times](#hacker-times)
+- [Lyft Ride Data](#lyft-ride-data)
 
 ### First Project
 
@@ -33,3 +35,15 @@ Code can be found [HERE](https://github.com/KodeyThomas/BackendDev/tree/master/0
 In this Project I demonstrate my knowledge of Aggregate Functions within SQL
 
 Code can be found [HERE](https://github.com/KodeyThomas/BackendDev/tree/master/08-SQL/Projects/aggregateFunctions.sqlite)
+
+### Hacker Times
+
+This example project uses queries on a example hacker_times database to query the database
+
+Code can be found [HERE](https://github.com/KodeyThomas/BackendDev/tree/master/08-SQL/Projects/hacker_times.sqlite)
+
+### Lyft Ride Data
+
+This Project demonstrated my abilities to use queries to join tables together in various ways
+
+Code can be found [HERE](https://github.com/KodeyThomas/BackendDev/tree/master/08-SQL/Projects/lyftRideData.sqlite)
