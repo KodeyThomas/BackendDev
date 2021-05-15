@@ -1,6 +1,6 @@
 # Backend Developer Journey
 
-Hi, My name is [Kodey Thomas](https://twitter.com/ThomasKodey) and i'm a 16 year old programmer. During this recent quarantine I started thinking
+Hi, My name is [Kodey Thomas](https://twitter.com/ThomasKodey) and i'm a 17 year old programmer. During this recent quarantine I started thinking
 **What Do I Actually Know?** and taking a step back i realised it's so much better to spend this time doing something productive and learning new skills to help me in my future endeavours.
 
 > The rest of this `README.md` is about my personal life and the derivations I am going to make to the roadmap, if you just want to get started head into the first folder labelled `01-JavaScript` however I recommend you read the rest of this as it gives you a good understanding of where my skills were before starting this project.
