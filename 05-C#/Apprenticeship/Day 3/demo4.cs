@@ -7,7 +7,7 @@ namespace demo4
         static void Main()
         {
             int x,y, result;
-            Console.Write("Divison. Please enter the numerator: ");
+            Console.Write("Division. Please enter the numerator: ");
             try {
                 x = Convert.ToInt32(Console.ReadLine());
             }
