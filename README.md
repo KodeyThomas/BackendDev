@@ -57,4 +57,10 @@ It will be increadibly useful if I ever come to develop desktop applications.
 So the roadmap I will be following can be found [HERE](https://roadmap.sh/backend) but I can already do a few things on there, so I shall be ticking off what I already can do to simplify the process.
 
 So here is the edited roadmap I will be following
+
+Key:
+- Stuff I Knew Before (Black)
+- Stuff I Have a Certification In (Red)
+- Things I've learnt during this process (Orange)
+
 ![backend roadmap](assets/backendDev.png)
