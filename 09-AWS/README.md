@@ -13,3 +13,7 @@ In this Document i'm going to cover some basic AWS Principles and set up a mini-
 > This is a simple diagram of the AWS architecture i'm going to be using for this project
 
 So follow along!
+
+
+UPDATE: 18/06/2021
+I Passed by AWS Cloud Practitioner Exam and are now studying towards by AWS Associate Developer Certification :O
